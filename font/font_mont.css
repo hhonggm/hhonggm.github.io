@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+
+@font-face {
+  font-family: 'mont';
+  font-stretch:normal;
+  font-style:normal;
+  font-weight: 400;
+  src: url(mont/mont.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'mont';
+  font-stretch:normal;
+  font-style:normal;
+  font-weight: 700;
+  src: url(mont/mont.woff) format('woff');
+}
