@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='ko'>
 <head>
-<title>Portfolio1111</title>
+<title>Portfolio</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="index,follow">
@@ -12,13 +12,14 @@
 <link rel="apple-touch-icon-precomposed" href="images/common/favicon_152.png">
 <link rel="stylesheet" href="css/common.css" />
 <link rel="stylesheet" href="js/bootstrap/bootstrap.min.css" />
-<link rel="stylesheet" href="font/font_mont.css" />
+<link rel="stylesheet" href="font/font_scoredream.css" />
 <link rel="stylesheet" href="css/main.css" />
 
 <script src="js/jQuery/jquery-3.3.1.min.js"></script>
 <script src="js/jQuery/jquery-migrate-1.4.1.min.js"></script>
 <script src="js/jQueryUI/jquery-ui.min.js"></script>
 <script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/acego.common.js"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -56,7 +57,14 @@
 </header>
 <div id="body_layout">	
 
-
+	<div id="home">
+		<div class="layout">
+			<div class="txt">
+				<em>PORTFOLIO  Hong Hye Min</em>
+				<strong>Web Publisher <br> Front-and Developer</strong>
+			</div>
+		</div>
+	</div>
 	<div id="about">
 		<div class="layout">
 			<ul>
@@ -69,12 +77,12 @@
 					<p>호환성과 접근성에 맞는 사이트 구축</p>
                 </li>
                 <li>
-                    <strong>HTML, CSS, jQuery, Bootstrap</strong>
-					<p></p>
+                    <strong>HTML, CSS/SASS, JavaScript/jQuery, Vue Js / Bootstrap</strong>
+					<p>Skills</p>
                 </li>
                 <li>
-                    <strong>HTML, CSS, jQuery, Bootstrap</strong>
-					<p></p>
+                    <strong>메인 / 서브레이아웃 / 특화페이지 / 프로그램페이지</strong>
+					<p>업무영역</p>
                 </li>
             </ul>
 		</div>
@@ -85,17 +93,16 @@
 			<div class="box_wrap">
 				<!-- type1 : 포털 type2: 대학 type3:단일프로젝트 type4:기타 -->
 				<div class="box" data-aos="fade-right">
-					<div class="link" style="background-image: url(images/main/ys.jpg)">
+					<button  style="background-image: url(images/main/ys_tour.jpg)" type="button" class="link" data-button="modal" data-target="#demo-media__popup1" data-width="auto">
 						<span class="type1">포털</span>
 						<div class="txt">
 							<strong>유성구 홈페이지 전면개편사업</strong>
 							<ul>
 								<li>2021.03 ~ 진행중</li>
 								<li>HTML/CSS3/jQuery/Ajax/접근성마크획득</li>
-								<li><a href="">아카이브</a>, <a href="">문화관광</a> 진행</li>
 							</ul>
 						</div>
-					</div>
+					</button>
 				</div>
 				<div class="box" data-aos="fade-left">
 					<a class="link" href="#" title="새창열림" target="_blank" style="background-image: url(images/main/ys.jpg)">
@@ -110,19 +117,43 @@
 					</a>
 				</div>
 				<div class="box" data-aos="fade-right">
-					<a class="link" href="http://www.gzonei.com/" title="새창열림" target="_blank" style="background-image: url(images/main/ys.jpg)">
+					<a class="link" href="http://www.gzonei.com/" title="새창열림" target="_blank" style="background-image: url(images/main/gzone.jpg)">
 						<span class="type3">단일프로젝트</span>
 						<div class="txt">
 							<strong>전국개발정보 지존 홈페이지 개편 용역</strong>
 							<ul>
-								<li>2021.03 ~ 2021.04</li>
+								<li>2021.03 ~ 2021.05</li>
+								<li>HTML/CSS3/jQuery</li>
+							</ul>
+						</div>
+					</a>
+				</div>
+				<div class="box" data-aos="fade-right">
+					<a class="link" href="https://www.yuseong.go.kr/naraedu/html/sub01/0101.html" title="새창열림" target="_blank" style="background-image: url(images/main/ysnr.jpg)">
+						<span class="type3">단일프로젝트</span>
+						<div class="txt">
+							<strong>교육플랫폼 나래이음 홈페이지 구축 용역</strong>
+							<ul>
+								<li>2020.12 ~ 2021.02</li>
 								<li>HTML/CSS3/jQuery</li>
 							</ul>
 						</div>
 					</a>
 				</div>
 				<div class="box" data-aos="fade-left">
-					<a class="link" href="https://www.momsworld.or.kr/kr/" title="새창열림" target="_blank" style="background-image: url(images/main/ys.jpg)">
+					<a class="link" href="https://www.gist.ac.kr/ipa/" title="새창열림" target="_blank" style="background-image: url(images/main/ipa.jpg)">
+						<span class="type2">대학</span>
+						<div class="txt">
+							<strong>GIST IPA 홈페이지 재구축</strong>
+							<ul>
+								<li>2020.12 ~ 2021.04</li>
+								<li>HTML/CSS3/jQuery</li>
+							</ul>
+						</div>
+					</a>
+				</div>
+				<div class="box" data-aos="fade-left">
+					<a class="link" href="https://www.momsworld.or.kr/kr/" title="새창열림" target="_blank" style="background-image: url(images/main/camom.jpg)">
 						<span class="type3">단일프로젝트</span>
 						<div class="txt">
 							<strong>천안시직장맘지원센터 홈페이지 고도화 용역</strong>
@@ -134,7 +165,7 @@
 					</a>
 				</div>
 				<div class="box" data-aos="fade-right">
-					<a class="link" href="https://www.dgist.ac.kr/kr/intro2020.html" title="새창열림" target="_blank" style="background-image: url(images/main/ys.jpg)">
+					<a class="link" href="https://www.dgist.ac.kr/kr/intro2020.html" title="새창열림" target="_blank" style="background-image: url(images/main/dgist.jpg)">
 						<span class="type3">단일프로젝트</span>
 						<div class="txt">
 							<strong>DGIST 대표 홈페이지 리뉴얼 용역</strong>
@@ -147,7 +178,7 @@
 					</a>
 				</div>
 				<div class="box" data-aos="fade-left">
-					<div class="link" style="background-image: url(images/main/ys.jpg)">
+					<button  style="background-image: url(images/main/hs.jpg)" type="button" class="link" data-button="modal" data-target="#demo-media__popup2" data-width="auto">
 						<span class="type1">포털</span>
 						<div class="txt">
 							<strong>2020년 홍성군 통합 홈페이지 재구축 용역</strong>
@@ -155,16 +186,15 @@
 								<li>2020.11 ~ 2020.12</li>
 								<li>HTML/CSS3/jQuery</li>
 								<li>프로젝트 총괄 담당으로 일정 및 프로젝트 관리 담당, 총 17개 중 14개의 메인 퍼블리싱</li>
-								<li><a title="새창열림" target="_blank" href="http://www.hongseong.go.kr/html/hall/mirror2/">미러디스플레이</a><a title="새창열림" target="_blank" href="http://www.hongseong.go.kr/html/tour/mymap.html">사이버투어(나만의코스만들기)</a><a title="새창열림" target="_blank" href=" http://www.hongseong.go.kr/html/kor/hsToday.jsp">특화페이지</a></li>
 							</ul>
 						</div>
-					</div>
+					</button>
 				</div>
 				<div class="box" data-aos="fade-right">
-					<a class="link" href="http://archive.chungbuk.re.kr/" title="새창열림" target="_blank" style="background-image: url(images/main/kiast.jpg)">
+					<a class="link" href="http://archive.chungbuk.re.kr/" title="새창열림" target="_blank" style="background-image: url(images/main/cb.jpg)">
 						<span class="type3">단일프로젝트</span>
 						<div class="txt">
-							<strong>충북의 문화유산 아카이브 구축 소프트웨어 개발 용역 2차</strong>
+							<strong>충북의 문화유산 아카이브 구축 <br>소프트웨어 개발 용역 2차</strong>
 							<ul>
 								<li>2020.07 ~ 2020.10</li>
 								<li>HTML/CSS3/jQuery</li>
@@ -173,7 +203,7 @@
 					</a>
 				</div>
 				<div class="box" data-aos="fade-left">
-					<a class="link" href="http://www.gsfestival.co.kr/gsfestival/" title="새창열림" target="_blank" style="background-image: url(images/main/gsinsam.jpg)">
+					<a class="link" href="http://www.gsfestival.co.kr/gsfestival/" title="새창열림" target="_blank" style="background-image: url(images/main/insam.jpg)">
 						<span class="type3">단일프로젝트</span>
 						<div class="txt">
 							<strong>금산인삼축제 온라인 시스템 구축사업</strong>
@@ -197,7 +227,7 @@
 					</a>
 				</div>
 				<div class="box" data-aos="fade-left">
-					<a class="link" href="https://www.geumsan.go.kr/kr/" title="새창열림" target="_blank" style="background-image: url(images/main/gs.jpg)">
+					<button  style="background-image: url(images/main/gs.jpg)" type="button" class="link" data-button="modal" data-target="#demo-media__popup3" data-width="auto">
 						<span class="type1">포털</span>
 						<div class="txt">
 							<strong>ICT 기반 금산군 홈페이지 통합 및 고도화 용역</strong>
@@ -207,7 +237,7 @@
 								<li>대표 비주얼쪽 계절별 애니메이션은 유지보수에서 지속적으로 관리될 수 있도록 파일을 include 시켜 작업</li>
 							</ul>
 						</div>
-					</a>
+					</button>
 				</div>
 				<div class="box" data-aos="fade-right">
 					<a class="link" href="http://www.konicof.or.kr/kor/" title="새창열림" target="_blank" style="background-image: url(images/main/konicof.jpg)">
@@ -223,7 +253,7 @@
 					</a>
 				</div>
 				<div class="box" data-aos="fade-left">
-					<div class="link" style="background-image: url(images/main/konicof.jpg)">
+					<button  style="background-image: url(images/main/hb.jpg)" type="button" class="link" data-button="modal" data-target="#demo-media__popup4" data-width="auto">
 						<span class="type2">대학</span>
 						<div class="txt">
 							<strong>한밭대학교 홈페이지 통합 구축 사업</strong>
@@ -234,10 +264,10 @@
 								<li><a href="https://www.hanbat.ac.kr/kor/sub01_05.do">특화페이지</a><a href="https://www.hanbat.ac.kr/cyber/tour/index.html">캠퍼스투어</a></li>
 							</ul>
 						</div>
-					</div>
+					</button>
 				</div>
 				<div class="box" data-aos="fade-right">
-					<a class="link" href="" title="새창열림" target="_blank" style="background-image: url(images/main/gs.jpg)">
+					<a class="link" href="images/main/java.xlsx" title="새창열림" target="_blank" style="background-image: url(images/main/java.jpg)">
 						<span class="type4">기타</span>
 						<div class="txt">
 							<strong>JAVA 디렉토리 구조 변경 문서</strong>
@@ -249,7 +279,7 @@
 					</a>
 				</div>
 				<div class="box" data-aos="fade-left">
-					<a class="link" href="" title="새창열림" target="_blank" style="background-image: url(images/main/gs.jpg)">
+					<a class="link" href="images/main/gonet_tmpl.pdf" title="새창열림" target="_blank" style="background-image: url(images/main/php.jpg)">
 						<span class="type4">기타</span>
 						<div class="txt">
 							<strong>PHP 관리자 화면개선 문서</strong>
@@ -261,7 +291,7 @@
 					</a>
 				</div>
 				<div class="box" data-aos="fade-right">
-					<a class="link" href="" title="새창열림" target="_blank" style="background-image: url(images/main/gs.jpg)">
+					<a class="link" href="images/main/2019docu.pdf" title="새창열림" target="_blank" style="background-image: url(images/main/2019docu.jpg)">
 						<span class="type4">기타</span>
 						<div class="txt">
 							<strong>2019 접근성 문서</strong>
@@ -273,7 +303,19 @@
 					</a>
 				</div>
 				<div class="box" data-aos="fade-left">
-					<a class="link" href="https://www.sejong.go.kr/index.jsp" title="새창열림" target="_blank" style="background-image: url(images/main/gs.jpg)">
+					<a class="link" href="https://www.cihc.or.kr/archive/" title="새창열림" target="_blank" style="background-image: url(images/main/cnarchive.jpg)">
+						<span class="type3">단일프로젝트</span>
+						<div class="txt">
+							<strong>충남역사문화자원 아카이브 자료관리 시스템 구축</strong>
+							<ul>
+								<li>2019.08~2020.03</li>
+								<li>HTML/CSS3/jQuery</li>
+							</ul>
+						</div>
+					</a>
+				</div>
+				<div class="box" data-aos="fade-left">
+					<a class="link" href="https://www.sejong.go.kr/index.jsp" title="새창열림" target="_blank" style="background-image: url(images/main/sj.jpg)">
 						<span class="type1">포털</span>
 						<div class="txt">
 							<strong>세종시 홈페이지 개편 및 기능개선 사업</strong>
@@ -297,6 +339,112 @@
 						</div>
 					</a>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="demo-media__popup1" tabindex="0" role="dialog">
+		<div class="modal__body">
+			<div class="modal__content">
+				<strong>유성구 홈페이지 전면개편사업</strong>
+				<ul>
+					<li>2021.03 ~ 진행중</li>
+					<li>HTML/CSS3/jQuery/Ajax/접근성마크획득</li>
+					<li>서포트로 투입</li>
+					<li class="btn">
+						<a title="새창열림" target="_blank" href="https://testys.yuseong.go.kr/media/">아카이브</a>
+						<a href="https://testys.yuseong.go.kr/tour/">문화관광</a>
+					</li>
+				</ul>
+				<img src="images/main/ys_tour.jpg" alt="">
+				<img src="images/main/ys_archive.jpg" alt="">
+			</div>
+			<div class="modal__close">
+				<button type="button" data-close="modal" class="modal__close-button">
+					<span>닫기</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="demo-media__popup2" tabindex="0" role="dialog">
+		<div class="modal__body">
+			<div class="modal__content">
+				<strong>2020년 홍성군 통합 홈페이지 재구축 용역</strong>
+				<ul>
+					<li>2021.03 ~ 진행중</li>
+					<li>HTML/CSS3/jQuery/Ajax/접근성마크획득</li>
+					<li>프로젝트 총괄 담당으로 일정 및 프로젝트 관리 담당, 총 17개 중 14개의 메인 퍼블리싱</li>
+					<li class="btn">
+						<a title="새창열림" target="_blank" href="http://www.hongseong.go.kr/html/hall/mirror2/">미러디스플레이</a>
+						<a title="새창열림" target="_blank" href="http://www.hongseong.go.kr/html/tour/mymap.html">사이버투어(나만의코스만들기)</a>
+						<a title="새창열림" target="_blank" href="http://www.hongseong.go.kr/html/kor/hsToday.jsp">특화페이지</a>
+						<a title="새창열림" target="_blank" href="https://www.hongseong.go.kr/tour/index.do">문화관광</a>
+						<a title="새창열림" target="_blank" href="https://www.hongseong.go.kr/hanwoo/index.do">한우</a>
+						<a title="새창열림" target="_blank" href="https://www.hongseong.go.kr/media/index.do">미디어</a>
+					</li>
+				</ul>
+				<img src="images/main/hs_today.jpg" alt="">
+				<img src="images/main/hs_myc.jpg" alt="">
+			</div>
+			<div class="modal__close">
+				<button type="button" data-close="modal" class="modal__close-button">
+					<span>닫기</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="demo-media__popup3" tabindex="0" role="dialog">
+		<div class="modal__body">
+			<div class="modal__content">
+				<strong>ICT 기반 금산군 홈페이지 통합 및 고도화 용역</strong>
+				<ul>
+					<li>2020.06 ~ 2020.12</li>
+					<li>HTML/CSS3/jQuery/Ajax/접근성마크획득</li>
+					<li>프로젝트 총괄 담당으로 일정 및 프로젝트 관리 담당, 총 17개 중 16개의 메인 퍼블리싱</li>
+					<li>템플릿 사업으로 메인 4타입, 서브레이아웃 3타입으로 퍼블리싱</li>
+					<li>대표 비주얼쪽 계절별 애니메이션(봄,여름,가을,겨울)은 유지보수에서 지속적으로 관리될 수 있도록 파일을 include 시켜 작업</li>
+					<li class="btn">
+						<a title="새창열림" target="_blank" href="https://www.geumsan.go.kr/kr/index.html">대표</a>
+						<a title="새창열림" target="_blank" href="http://www.geumsan.go.kr/chief/">열린군수실</a>
+						<a title="새창열림" target="_blank" href="https://www.geumsan.go.kr/tour/">문화관광</a>
+						<a title="새창열림" target="_blank" href="https://www.geumsan.go.kr/insam/">인삼통</a>
+						<a title="새창열림" target="_blank" href="https://www.geumsan.go.kr/site/cyber/hall/index.html#main">청사안내</a>
+						
+					</li>
+				</ul>
+				<img src="images/main/gs_tmpl.jpg" alt="">
+				<img src="images/main/gs_main.jpg" alt="">
+			</div>
+			<div class="modal__close">
+				<button type="button" data-close="modal" class="modal__close-button">
+					<span>닫기</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="demo-media__popup4" tabindex="0" role="dialog">
+		<div class="modal__body">
+			<div class="modal__content">
+				<strong>한밭대학교 홈페이지 통합 구축 사업</strong>
+				<ul>
+					<li>2019.09~2019.12</li>
+					<li>HTML/CSS3/jQuery/Ajax/접근성마크획득</li>
+					<li>프로젝트 총괄 담당으로 일정 및 프로젝트 관리 담당, 대표 제외 모든 사이트 퍼블리시</li>
+					<li>빌더사업으로 메인 진행할때 모든 경우의 수 등 담당 개발자와 지속적인 소통</li>	
+					<li>학과 템플릿</li>	
+					<li class="btn">
+						<a title="새창열림" target="_blank" href="https://www.hanbat.ac.kr/admission/">입학</a>
+						<a title="새창열림" target="_blank" href="https://www.hanbat.ac.kr/kor/sub01_05.do">특화페이지</a>
+						<a title="새창열림" target="_blank" href="https://www.hanbat.ac.kr/cyber/tour/index.html">캠퍼스투어</a>
+						<a title="새창열림" target="_blank" href="https://www.hanbat.ac.kr/technical/index.do">대학</a>
+						<a title="새창열림" target="_blank" href="https://www.hanbat.ac.kr/machine/index.do">학과</a>
+					</li>
+				</ul>
+				<img src="images/main/hb_build.png" alt="">
+			</div>
+			<div class="modal__close">
+				<button type="button" data-close="modal" class="modal__close-button">
+					<span>닫기</span>
+				</button>
 			</div>
 		</div>
 	</div>

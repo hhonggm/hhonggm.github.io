@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'score';
+    font-weight: 200;
+    src: url(sCoreDream/score2.eot) format('eot'),
+    url(sCoreDream/score2.woff) format('woff');
+}
+
+@font-face {
+   font-family: 'score';
+   src: url(sCoreDream/score5.eot) format('eot'),
+        url(sCoreDream/score5.woff) format('woff');
+}
+
+@font-face {
+     font-family: 'score';
+     font-weight: 700;
+     src: url(sCoreDream/score7.eot) format('eot'),
+          url(sCoreDream/score7.woff) format('woff');
+}
+.score{font-family: 'score';}
