@@ -33,7 +33,7 @@ template {display:none;}
 .hide {display:none;}
 .sr-only, .skip, .blind {position: absolute;overflow: hidden;clip: rect(0 0 0 0);width: 1px;height: 1px;margin: -1px;}
 br{font-size:0;}
-:lang(ko) body{position:relative;color:#555;font-family:'gothic','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,"Apple SD Gothic Neo","애플 SD 산돌고딕 Neo",sans-serif;letter-spacing: -0.03em;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased;-webkit-touch-callout:none;}
+:lang(ko) body{position:relative;color:#555;font-family:'nsr','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,"Apple SD Gothic Neo","애플 SD 산돌고딕 Neo",sans-serif;letter-spacing: -0.03em;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased;-webkit-touch-callout:none;}
 :lang(zh-CN) body{font-family:"Helvetica Neue","Helvetica","Arial",sans-serif}
 :lang(ja) body{font-family:Hiragino Kaku Gothic Pro,osaka,sans-serif}
 :lang(en) body{font-family: 'Roboto','Frutiger Linotype',sans-serif;}
@@ -44,13 +44,13 @@ br{font-size:0;}
 	body{font-size:15px;line-height:1.5}
 }
 /* 입력 form */
-input{font-size: inherit; font-family: inherit; color: inherit; vertical-align: middle;font-family:'gothic','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,"Apple SD Gothic Neo","애플 SD 산돌고딕 Neo",sans-serif;}
+input{font-size: inherit; font-family: inherit; color: inherit; vertical-align: middle;font-family:'nsr','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,"Apple SD Gothic Neo","애플 SD 산돌고딕 Neo",sans-serif;}
 input[type="text"],input[type="search"]{-webkit-border-radius:0; -webkit-appearance:none;}
 input[type="file"]{border:none}
 input[type="radio"],input[type="checkbox"]{border:none}
 button{text-transform: none; vertical-align: middle}
 button,[type="button"],[type="reset"],[type="submit"] {background-color:transparent; cursor: pointer; -webkit-border-radius:0; -webkit-appearance:none;}
-select{padding:0 5px;background:transparent url(/pcms/common/images/ir/arrow-select.png) no-repeat 98% 50%;appearance:none;-webkit-appearance:none;-moz-appearance:none;-webkit-appearance: none;-ms-appearance: none;-o-appearance: none;font-family:'gothic','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,"Apple SD Gothic Neo","애플 SD 산돌고딕 Neo",sans-serif;}
+select{padding:0 5px;background:transparent url(/pcms/common/images/ir/arrow-select.png) no-repeat 98% 50%;appearance:none;-webkit-appearance:none;-moz-appearance:none;-webkit-appearance: none;-ms-appearance: none;-o-appearance: none;font-family:'nsr','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,"Apple SD Gothic Neo","애플 SD 산돌고딕 Neo",sans-serif;}
 select::-ms-expand {display: none;}
 textarea{font-size: inherit; font-family: inherit; color: inherit; vertical-align: middle; resize:none;}
 input[disabled="disabled"]{background-color:#ebebeb; color:#959595}
