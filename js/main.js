@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $(window).on("scroll",function(){
+    
+    });
 
     $(document).on('click','#gnb_layout ul li a',function(){
         let pageTop = $(this).attr('href');
