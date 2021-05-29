@@ -1,0 +1,20 @@
+@charset "utf-8";
+@font-face {
+  font-family:'nsr';
+  font-style: normal;
+  font-weight:normal;
+  font-display: swap;
+  src: url(nanumsquare/NanumSquareR.eot); /* IE 호환성 보기 */
+  src: url(nanumsquare/NanumSquareR.eot#iefix) format('embedded-opentype'), /* IE 6 ~ 8 */
+       url(nanumsquare/NanumSquareR.woff) format('woff');
+}
+@font-face {
+   font-family:'nsr';
+   font-style: normal;
+   font-weight: 600;
+  font-display: swap;
+  src: url(nanumsquare/NanumSquareB.eot); /* IE 호환성 보기 */
+  src: url(nanumsquare/NanumSquareB.eot#iefix) format('embedded-opentype'), /* IE 6 ~ 8 */
+       url(nanumsquare/NanumSquareB.woff) format('woff');
+ }
+.nsr{font-family:'nsr';}
