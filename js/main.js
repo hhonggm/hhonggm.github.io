@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
     $(document).on('click','#gnb_layout ul li a',function(){
-		let pageTop = $(this).attr('href');
+        let pageTop = $(this).attr('href');
 
-		$('html, body').animate({
-		  scrollTop : $(pageTop).offset().top
-		},1000)
-	  });
+        $('html, body').animate({
+          scrollTop : $(pageTop).offset().top
+        },1000)
+      });
 
 
     visualTextshuffle();
