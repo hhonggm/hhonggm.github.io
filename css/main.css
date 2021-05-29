@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-body{/* background:#151515 */}
-
 .layout{position:relative;max-width:1300px;margin:0 auto;}
 
 #top_layout{position:absolute;}
@@ -32,9 +30,7 @@ body{/* background:#151515 */}
 #home .bg .img{position:relative;z-index:1;width:332px;height:461px;margin: 0 auto;background: #000;}
 #home .bg p{position:absolute;top: 60px;left:50%;color: #000;font-family:serif;line-height: 0.8;letter-spacing: -0.1em;opacity: 0.2;}
 
-
-
-#about{padding:100px 0;/* background: #fff; */}
+#about{padding:100px 0;}
 #about ul{max-width: 900px;margin: 0 auto;}
 #about ul:after{display:block;clear:both;content:'';}
 #about ul li{float:left;width: calc(50% - 30px);min-height: 152px;margin-bottom: 40px;margin-right: 60px;}
@@ -42,12 +38,6 @@ body{/* background:#151515 */}
 #about ul li strong{display:block;position: relative;margin-bottom:10px;font-size:30px;font-family: 'score';color: #000;line-height:1.3;}
 #about ul li strong:before{position:absolute;left: -40px;top: -40px;z-index:-1;width:100px;height:100px;background: #fede22;border-radius:50%;content:'';}
 #about ul li p{color: #000;}
-
-
-
-
-
-
 
 #projects .modal:before{content:'';display:inline-block;height:100%;width:0;margin-left:-1em;vertical-align:middle}
 #projects .modal__open{overflow:hidden;height:100%}
@@ -106,9 +96,9 @@ body.modal__open{overflow:hidden;height:100%;}
 .modal .modal__backdrop{display:none;}
 .modal .modal__body{}
 .modal .modal__content{padding: 40px 49px;background: url(/images/main/lp_bg.png) no-repeat right bottom;}
-.modal .modal__content strong{display:block;margin: 3px 0 10px;border-radius: 43px;font-size: 40px;color: #000;font-weight: bold;vertical-align: top;line-height: 1;letter-spacing: -0.05em;font-family: 'score';}
+.modal .modal__content strong{display:block;margin: 3px 0 19px;border-radius: 43px;font-size: 40px;color: #000;font-weight: bold;vertical-align: top;line-height: 1;letter-spacing: -0.05em;font-family: 'score';}
+.modal .modal__content em{display: block;margin-bottom: 8px;font-size:1.1em;color:#000;font-weight: bold;}
 .modal .modal__content ul li{font-size:1.1em;color:#000;}
-.modal .modal__content ul li:nth-child(1){margin-bottom:30px}
 .modal .modal__content .btn{width:100%;margin-top:40px;margin-bottom: 100px;text-align:center;}
 .modal .modal__content .btn a{display:inline-block;padding:0 15px;border:1px solid #415076;line-height:44px;font-size:15px;color:#293964;text-align: center;}
 .modal .modal__content .btn a:after{display:inline-block;width: 24px;height: 19px;margin-left: 5px;background: url(/images/main/arr.png);vertical-align:middle;content:'';}
@@ -122,7 +112,6 @@ body.modal__open{overflow:hidden;height:100%;}
     0,100%{margin-top:0}
     50%{margin-top:-5px}
 }
-
 @media (max-width: 1279px){
     .layout{padding:0 40px;}
 }
