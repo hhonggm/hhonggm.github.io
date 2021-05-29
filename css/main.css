@@ -1,9 +1,10 @@
 @charset "utf-8";
 
-body{background:#151515}
+body{/* background:#151515 */}
 
 .layout{position:relative;max-width:1300px;margin:0 auto;}
 
+#top_layout{position:absolute;}
 #top_layout.on + .gnb_bg{display: block;}
 #gnb_layout{display:block;position: fixed;top: 0;left:0;z-index: 999;width:100%;height: 100px;/* background: #fff; */}
 #gnb_layout.open:before{display:block;position:absolute;top: 100px;bottom: 0;right: 50%;z-index: 01;width:100%;height: auto;margin-right: 390px;background: #f3f8fd url(/template/A/images/gnb_bg.png) no-repeat right bottom;content:'';}
@@ -18,20 +19,19 @@ body{background:#151515}
 #gnb_layout ul{display:inline-block;float:none;height:100%;z-index:14;}
 #gnb_layout ul:after {display: block; content: ''; clear: both;}
 #gnb_layout ul li{display:inline-block;height:100%;margin:0 -2px;vertical-align:top;}
-#gnb_layout ul li a{position:relative;display:block;height:100%;padding: 0 20px 0;line-height: 99px;font-size:18px;font-weight:600;letter-spacing:0;transition: all .3s;text-align:center;font-family: 'score';color: #fff;}
+#gnb_layout ul li a{position:relative;display:block;height:100%;padding: 0 20px 0;line-height: 99px;font-size:18px;font-weight:600;letter-spacing:0;transition: all .3s;text-align:center;font-family: 'score';color: #000;}
 #gnb_layout ul li a:before{position: absolute;left:0;top:50%;width:1px;height: 17px;margin-top: -6.5px;background: #ccc;content: '';}
 #gnb_layout ul li:first-child>a:before{display:none;}
 
-#body_layout{overflow: hidden;padding-top: 50px;}
+#body_layout{overflow: hidden;padding-top: 0;}
 
-#home{position:relative;padding: 140px 0 50px;/* background: #fede22; */}
-#home em{display:block;margin-bottom: 10px;font-size:15px;color:#fff;font-weight:bold;line-height: 1;}
-#home strong{display:block;font-size:40px;color:#000;font-family:'score';line-height: 1;-webkit-animation: tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both;}
+#home{position:relative;padding: 210px 0 50px;background: #fede22;}
+#home em{display:block;margin-bottom: 10px;font-size: 20px;color:#fff;font-weight:bold;line-height: 1;}
+#home p{display:block;font-size: 50px;color:#000;font-family: 'score';line-height: 1;font-weight: bold;}
 #home .bg{position:relative}
 #home .bg .img{position:relative;z-index:1;width:332px;height:461px;margin: 0 auto;background: #000;}
-#home .bg p{position:absolute;top: 60px;left:50%;color: #fff;font-family:serif;line-height: 0.8;letter-spacing: -0.1em;opacity: 0.2;}
-#home .bg .txt1{top: 50%;max-width: 600px;margin-left: -620px;font-size: 179px;transform: translateY(-50%);}
-#home .bg .txt2{max-width: 540px;margin-left: 140px;font-size:140px;}
+#home .bg p{position:absolute;top: 60px;left:50%;color: #000;font-family:serif;line-height: 0.8;letter-spacing: -0.1em;opacity: 0.2;}
+
 
 
 #about{padding:100px 0;/* background: #fff; */}
@@ -39,9 +39,9 @@ body{background:#151515}
 #about ul:after{display:block;clear:both;content:'';}
 #about ul li{float:left;width: calc(50% - 30px);min-height: 152px;margin-bottom: 40px;margin-right: 60px;}
 #about ul li:nth-child(2n){margin-top:40px;margin-right: 0;}
-#about ul li strong{display:block;position: relative;margin-bottom:10px;font-size:30px;font-family: 'score';color: #fff;line-height:1.3;}
-/* #about ul li strong:before{position:absolute;left: -40px;top: -40px;z-index:-1;width:100px;height:100px;background: #fede22;border-radius:50%;content:'';} */
-#about ul li p{color:#fff;}
+#about ul li strong{display:block;position: relative;margin-bottom:10px;font-size:30px;font-family: 'score';color: #000;line-height:1.3;}
+#about ul li strong:before{position:absolute;left: -40px;top: -40px;z-index:-1;width:100px;height:100px;background: #fede22;border-radius:50%;content:'';}
+#about ul li p{color: #000;}
 
 
 
@@ -128,7 +128,6 @@ body.modal__open{overflow:hidden;height:100%;}
 .modal .modal__close button:after{position:absolute;left:50%;top:50%;height:100%;width: 2px;background:#4f4f4f;transform:translate(-50%,-50%);content:'';}
 
 
-@-webkit-keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}@keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
 @keyframes top{
     0,100%{margin-top:0}
     50%{margin-top:-5px}
