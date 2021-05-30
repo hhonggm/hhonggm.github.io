@@ -19,7 +19,7 @@ $(document).ready(function(){
     $.ajax({
         url:'/js/project.json',
         dataType:'json',
-        type:'post',
+        type:'get',
         success:function(item){
             var itemHTML = "";
                 itemHTML += '<div class="box" data-aos="zoom-out-up">';
