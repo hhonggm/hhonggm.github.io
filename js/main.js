@@ -21,25 +21,8 @@ $(document).ready(function(){
         dataType:'json',
         type:'get',
         success:function(item){
-            var itemHTML = "";
-                itemHTML += '<div class="box" data-aos="zoom-out-up">';
+            console.log(item);
 
-
-                if(item.type == "link") {
-                    itemHTML += '<a class="link" href="' + item.linkUrl + '" title="새창열림" target="_blank"  style="background-image: url('+ item.imgUrl +')">';
-                    itemHTML += '<div class="txt">';
-                    itemHTML += '<span class="label">'+ item.label +'</span>';
-                    itemHTML += '<strong>'+ item.title +'</strong>';
-                    itemHTML += '<ul>';
-                    itemHTML += '</ul>';
-                    itemHTML += '<em>VIEW</em>';
-                    itemHTML += '</div>';
-                    itemHTML += '</a>';
-                }else if(item.type == "modal"){
-                }
-                itemHTML += '</div>';
-                elements.push($(itemHTML).get(0));
-                $("#projects .box_wrap").append(itemHTML);
         }
     });
 
