@@ -1,11 +1,13 @@
 [
   {
+    "type": "modal",
     "label": "#포털",
     "title": "유성구 홈페이지 전면개편사업",
     "date": "2021.03 - 진행중",
     "imgUrl": "images/main/ys_tour.jpg",
     "linkUrl": "",
   },{
+    "type": "link",
     "label": "#단일프로젝트",
     "title": "전국개발정보 지존 홈페이지 개편 용역",
     "date": "2021.03 - 2021.05",
