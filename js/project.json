@@ -6,6 +6,7 @@
     "date": "2021.03 - 진행중",
     "imgUrl": "images/main/ys_tour.jpg",
     "linkUrl": "",
+    "target": "#demo-media__popup1",
   },{
     "type": "link",
     "label": "#단일프로젝트",
