@@ -68,7 +68,7 @@ body{display: block;position:relative;height: 100%;}
 #projects .modal .btn:after{display:block;clear:both;content:'';}
 #projects .modal .btn a{display:block;float:left;width: calc(33.333% - 8px);margin-right:12px;margin-bottom: 12px;border-radius:10px;background: #fede22;font-size: 17px;color: #000;line-height: 53px;text-align:center;font-weight:bold;box-shadow: 3px 0 20px rgba(0,0,0,0.1);}
 #projects .modal .btn a:nth-child(3n){margin-right:0;}
-#projects .box_wrap{positio:relative;}
+#projects .box_wrap{position:relative;}
 #projects .box_wrap:after{display:block;clear:both;content:'';}
 #projects .box_wrap .box{float:left;width:calc(50% - 25px);height: 400px;margin-bottom: 50px;margin-right:50px;}
 #projects .box_wrap .box:nth-child(2n){margin-right:0;margin-top:50px;}
