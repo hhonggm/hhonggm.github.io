@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function() {
     $(window).on("scroll",function(){
     
     });
@@ -21,7 +21,7 @@ function getProject(){
     $.ajax({
         url:'/js/project.json',
         dataType:'json',
-        type:'POST',
+        type:'GET',
         success:function(item){
             console.log(item);
 
