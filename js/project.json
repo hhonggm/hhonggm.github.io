@@ -1,18 +1,173 @@
 [
-  {
-    "type": "modal",
-    "label": "#포털",
-    "title": "유성구 홈페이지 전면개편사업",
-    "date": "2021.03 - 진행중",
-    "imgUrl": "images/main/ys_tour.jpg",
-    "linkUrl": "",
-    "target": "#demo-media__popup1",
-  },{
-    "type": "link",
-    "label": "#단일프로젝트",
-    "title": "전국개발정보 지존 홈페이지 개편 용역",
-    "date": "2021.03 - 2021.05",
-    "imgUrl": "images/main/gzone.jpg",
-    "linkUrl": "http://www.gzonei.com/",
-  }
+	{
+		"type" : "modal",
+		"label" : "#포털",
+		"title" : "유성구 홈페이지 전면개편사업",
+		"date" : "2021.03 - 진행중",
+		"imgUrl" : "images/main/ys_tour.jpg",
+		"linkUrl" : "",
+		"target" : "#demo-media__popup1"
+	},
+	{
+		"type" : "link",
+		"label" : "#대학",
+		"title" : "UST 대표 홈페이지 구축 사업",
+		"date" : "2021.04 - 진행중",
+		"imgUrl" : "images/main/ust.jpg",
+		"linkUrl" : "",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "전국개발정보 지존 홈페이지 개편 용역",
+		"date" : "2021.03 - 2021.05",
+		"imgUrl" : "images/main/gzone.jpg",
+		"linkUrl" : "http://www.gzonei.com/",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "교육플랫폼 나래이음 홈페이지 구축 용역",
+		"date" : "2020.12 - 2021.02",
+		"imgUrl" : "images/main/ysnr.jpg",
+		"linkUrl" : "https://www.yuseong.go.kr/naraedu/html/sub01/0101.html",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#대학",
+		"title" : "GIST IPA 홈페이지 재구축",
+		"date" : "2020.12 - 2021.04",
+		"imgUrl" : "images/main/ipa.jpg",
+		"linkUrl" : "https://www.gist.ac.kr/ipa/",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "천안시직장맘지원센터 홈페이지 고도화 용역",
+		"date" : "2020.11 - 2020.12",
+		"imgUrl" : "images/main/camom.jpg",
+		"linkUrl" : "https://www.momsworld.or.kr/kr/",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "DGIST 대표 홈페이지 리뉴얼 용역",
+		"date" : "2020.11 - 2020.12",
+		"imgUrl" : "images/main/dgist.jpg",
+		"linkUrl" : "https://www.dgist.ac.kr/kr/intro2020.html",
+		"target" : ""
+	},
+	{
+		"type" : "modal",
+		"label" : "#포털",
+		"title" : "2020년 홍성군 통합 홈페이지 재구축 용역",
+		"date" : "2020.11 - 2020.12",
+		"imgUrl" : "images/main/hs.jpg",
+		"linkUrl" : "",
+		"target" : "#demo-media__popup2"
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "충북의 문화유산 아카이브 구축 <br>소프트웨어 개발 용역 2차",
+		"date" : "2020.07 - 2020.10",
+		"imgUrl" : "images/main/cb.jpg",
+		"linkUrl" : "http://archive.chungbuk.re.kr/",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "금산인삼축제 온라인 시스템 구축사업",
+		"date" : "2020.07 - 2020.09",
+		"imgUrl" : "images/main/insam.jpg",
+		"linkUrl" : "http://www.gsfestival.co.kr/gsfestival/",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "국가비행종합성능시험장 포털사이트 구축 용역",
+		"date" : "2021.02 - 2021.04",
+		"imgUrl" : "images/main/kiast.jpg",
+		"linkUrl" : "https://www.kiast.or.kr/flighttest/index.do",
+		"target" : ""
+	},
+	{
+		"type" : "modal",
+		"label" : "#포털",
+		"title" : "ICT 기반 금산군 홈페이지 통합 및 고도화 용역",
+		"date" : "2020.06 - 2020.12",
+		"imgUrl" : "images/main/gs.jpg",
+		"linkUrl" : "",
+		"target" : "#demo-media__popup3"
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "한국원자력협력재단 홈페이지 통합 구축 용역",
+		"date" : "2020.03 - 2020.05",
+		"imgUrl" : "images/main/konicof.jpg",
+		"linkUrl" : "http://www.konicof.or.kr/kor/",
+		"target" : ""
+	},
+	{
+		"type" : "modal",
+		"label" : "#대학",
+		"title" : "한밭대학교 홈페이지 통합 구축 사업",
+		"date" : "2019.09-2019.12",
+		"imgUrl" : "images/main/hb.jpg",
+		"linkUrl" : "",
+		"target" : "#demo-media__popup4"
+	},
+	{
+		"type" : "link",
+		"label" : "#기타",
+		"title" : "JAVA 디렉토리 구조 변경 문서",
+		"date" : "2019.06",
+		"imgUrl" : "images/main/java.jpg",
+		"linkUrl" : "images/main/java.xlsx",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#기타",
+		"title" : "2019 접근성 문서",
+		"date" : "2019.09",
+		"imgUrl" : "images/main/2019docu.jpg",
+		"linkUrl" : "images/main/2019docu.pdf",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "충남역사문화자원 아카이브 자료관리 시스템 구축",
+		"date" : "2019.08-2020.03",
+		"imgUrl" : "images/main/cnarchive.jpg",
+		"linkUrl" : "https://www.cihc.or.kr/archive/",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#포털",
+		"title" : "세종시 홈페이지 개편 및 기능개선 사업",
+		"date" : "2019.02-2019.07",
+		"imgUrl" : "images/main/sj.jpg",
+		"linkUrl" : "https://www.sejong.go.kr/index.jsp",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "광양만권경제자유구역청 홈페이지 개편",
+		"date" : "2018.09 - 2018.12",
+		"imgUrl" : "images/main/gfez.jpg",
+		"linkUrl" : "https://www.gfez.go.kr/kor/index.do",
+		"target" : ""
+	}
 ]

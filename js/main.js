@@ -25,34 +25,34 @@ function getProject(){
         success:function(item){
             console.log(item);
 
-            // var itemHTML = "";
-            // for(var i = 0; i < data.length; i++){
-            //     itemHTML += '<div class="box" data-aos="zoom-out-up">';
-            //     if(item.type == "link") {
-            //         itemHTML += '<a class="link" href="' + item.linkUrl + '" title="새창열림" target="_blank"  style="background-image: url('+ item.imgUrl +')">';
-            //         itemHTML += '<div class="txt">';
-            //         itemHTML += '<span class="label">'+ item.label +'</span>';
-            //         itemHTML += '<strong>'+ item.title +'</strong>';
-            //         itemHTML += '<ul>';
-            //         itemHTML += '</ul>';
-            //         itemHTML += '<em>VIEW</em>';
-            //         itemHTML += '</div>';
-            //         itemHTML += '</a>';
-            //     }else if(item.type == "modal"){
-            //         itemHTML += '<button  style="background-image: url('+ item.imgUrl +')" type="button" class="link" data-button="modal" data-target="'+ item.target +'" data-width="auto">';
-            //             itemHTML += '<div class="txt">';
-            //                 itemHTML += '<span class="label type1">'+ item.label +'</span>';
-            //                 itemHTML += '<strong>'+ item.title +'</strong>';
-            //                 itemHTML += '<ul>';
-            //                 itemHTML += '</ul>';
-            //                 itemHTML += '<em>VIEW</em>';
-            //             itemHTML += '</div>';
-            //         itemHTML += '</button>';
-            //     }
-            //     itemHTML += '</div>';
+            var itemHTML = "";
+            for(var i = 0; i < data.length; i++){
+                itemHTML += '<div class="box" data-aos="zoom-out-up">';
+                if(item.type == "link") {
+                    itemHTML += '<a class="link" href="' + item.linkUrl + '" title="새창열림" target="_blank"  style="background-image: url('+ item.imgUrl +')">';
+                    itemHTML += '<div class="txt">';
+                    itemHTML += '<span class="label">'+ item.label +'</span>';
+                    itemHTML += '<strong>'+ item.title +'</strong>';
+                    itemHTML += '<ul>';
+                    itemHTML += '</ul>';
+                    itemHTML += '<em>VIEW</em>';
+                    itemHTML += '</div>';
+                    itemHTML += '</a>';
+                }else if(item.type == "modal"){
+                    itemHTML += '<button  style="background-image: url('+ item.imgUrl +')" type="button" class="link" data-button="modal" data-target="'+ item.target +'" data-width="auto">';
+                        itemHTML += '<div class="txt">';
+                            itemHTML += '<span class="label type1">'+ item.label +'</span>';
+                            itemHTML += '<strong>'+ item.title +'</strong>';
+                            itemHTML += '<ul>';
+                            itemHTML += '</ul>';
+                            itemHTML += '<em>VIEW</em>';
+                        itemHTML += '</div>';
+                    itemHTML += '</button>';
+                }
+                itemHTML += '</div>';
 
-            // }
-            // $('#projects .box_wrap').html(itemHTML);
+            }
+            $('#projects .box_wrap').html(itemHTML);
         }
     });
 }
