@@ -19,7 +19,7 @@ $(function() {
 
 function getProject(){
     $.ajax({
-        url:'/js/project2.json',
+        url:'/js/project.json',
         dataType:'json',
         type:'GET',
         success:function(item){
