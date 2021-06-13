@@ -28,7 +28,7 @@ function getProject(){
             var itemHTML = "";
             for(var i = 0; i < item.length; i++){
                 itemHTML += '<div class="box" data-aos="zoom-out-up">';
-                console.log("item.type"+item[i].type);
+                // console.log("item.type"+item[i].type);
                 if(item[i].type == "link") {
                     itemHTML += '<a class="link" href="' + item[i].linkUrl + '" title="새창열림" target="_blank"  style="background-image: url('+ item[i].imgUrl +')">';
                     itemHTML += '<div class="txt">';
