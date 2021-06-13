@@ -618,4 +618,9 @@ body.modal__open {
     height: 28px;
     margin-top: -14px;
   }
+  .modal .modal__body .modal__close-button img {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
 }
