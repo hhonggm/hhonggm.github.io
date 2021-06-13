@@ -469,6 +469,11 @@ body.modal__open {
   vertical-align: middle;
   content: "";
 }
+.modal .modal__body .modal__content .btn a img {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
 .modal .modal__body .modal__close {
   position: absolute;
   right: 29px;
@@ -617,10 +622,5 @@ body.modal__open {
     width: 1px;
     height: 28px;
     margin-top: -14px;
-  }
-  .modal .modal__body .modal__close-button img {
-    display: inline-block;
-    margin-right: 5px;
-    vertical-align: middle;
   }
 }
