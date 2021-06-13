@@ -23,7 +23,7 @@ function getProject(){
         dataType:'json',
         type:'GET',
         success:function(item){
-            console.log(item);
+            // console.log(item);
 
             var itemHTML = "";
             for(var i = 0; i < item.length; i++){
