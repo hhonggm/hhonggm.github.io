@@ -471,7 +471,7 @@ body.modal__open {
 }
 .modal .modal__body .modal__content .btn a img {
   display: inline-block;
-  margin-right: 5px;
+  margin-left: 5px;
   vertical-align: middle;
 }
 .modal .modal__body .modal__close {
