@@ -28,21 +28,22 @@ function getProject(){
             var itemHTML = "";
             for(var i = 0; i < item.length; i++){
                 itemHTML += '<div class="box" data-aos="zoom-out-up">';
-                if(item.type == "link") {
-                    itemHTML += '<a class="link" href="' + item.linkUrl + '" title="새창열림" target="_blank"  style="background-image: url('+ item.imgUrl +')">';
+                console.log("item.type"+item[i].type);
+                if(item[i].type == "link") {
+                    itemHTML += '<a class="link" href="' + item[i].linkUrl + '" title="새창열림" target="_blank"  style="background-image: url('+ item[i].imgUrl +')">';
                     itemHTML += '<div class="txt">';
-                    itemHTML += '<span class="label">'+ item.label +'</span>';
-                    itemHTML += '<strong>'+ item.title +'</strong>';
+                    itemHTML += '<span class="label">'+ item[i].label +'</span>';
+                    itemHTML += '<strong>'+ item[i].title +'</strong>';
                     itemHTML += '<ul>';
                     itemHTML += '</ul>';
                     itemHTML += '<em>VIEW</em>';
                     itemHTML += '</div>';
                     itemHTML += '</a>';
-                }else if(item.type == "modal"){
-                    itemHTML += '<button  style="background-image: url('+ item.imgUrl +')" type="button" class="link" data-button="modal" data-target="'+ item.target +'" data-width="auto">';
+                }else if(item[i].type == "modal"){
+                    itemHTML += '<button  style="background-image: url('+ item[i].imgUrl +')" type="button" class="link" data-button="modal" data-target="'+ item[i].target +'" data-width="auto">';
                         itemHTML += '<div class="txt">';
-                            itemHTML += '<span class="label type1">'+ item.label +'</span>';
-                            itemHTML += '<strong>'+ item.title +'</strong>';
+                            itemHTML += '<span class="label type1">'+ item[i].label +'</span>';
+                            itemHTML += '<strong>'+ item[i].title +'</strong>';
                             itemHTML += '<ul>';
                             itemHTML += '</ul>';
                             itemHTML += '<em>VIEW</em>';
