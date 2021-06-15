@@ -148,7 +148,6 @@ body {
   display: block;
   position: relative;
   padding: 210px 0 50px;
-  background: #fede22;
   box-sizing: border-box;
 }
 #home em {
@@ -164,35 +163,28 @@ body {
   position: absolute;
   left: 50%;
   min-height: 50px;
-  font-size: 3.5em;
+  font-size: 7.5em;
   color: #000;
   font-family: "score";
   line-height: 1;
   font-weight: bold;
 }
-#home .bg position:relative .img {
+#home p.txt1 {
+  margin-left: -600px;
+}
+#home p.txt2 {
+  margin-left: 70px;
+}
+#home .bg {
+  position: relative;
+}
+#home .bg .img {
   position: relative;
   z-index: 1;
   width: 332px;
   height: 461px;
   margin: 0 auto;
   background: #000;
-}
-#home .bg p {
-  position: absolute;
-  top: 60px;
-  left: 50%;
-  color: #000;
-  font-family: serif;
-  line-height: 0.8;
-  letter-spacing: -0.1em;
-  opacity: 0.2;
-}
-#home .bg p.txt1 {
-  margin-left: -600px;
-}
-#home .bg p.txt2 {
-  margin-left: 70px;
 }
 
 #about {
