@@ -53,7 +53,7 @@ function getProject(){
                 itemHTML += '</div>';
 
             }
-            $('#projects .box_wrap').html(itemHTML);
+            $('#projects .box_wrap .list2').html(itemHTML);
         }
     });
 }
