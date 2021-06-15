@@ -14,32 +14,26 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          name: 'images/[contenthash].[ext]'
+        }
+      },
+      {
         test: /\.(js)$/,
         use: ['babel-loader']
       },
       {
-        test: /\.(scss)$/,
+        test: /\.(scss|css)$/,
         use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader',
           {
-            loader: 'postcss-loader',
+            loader: MiniCssExtractPlugin.loader,
             options: {
-              postcssOptions: {
-                plugins: [
-                  [
-                    "autoprefixer",
-                    {
-                      //변환될 코드의 target을 의미합니다.
-                      overrideBrowserslist:"cover 99.5%"
-                    },
-                  ],
-                ],
-              },
-            },
+              publicPath: ''
+            }
           },
-          'sass-loader'
-        ],
+          "css-loader", "sass-loader"]
       },
     ],
   },

@@ -195,7 +195,7 @@ body.modal__open{overflow:hidden;height:100%;}
         a{
           display:inline-block;padding:0 15px;border:1px solid #415076;line-height:44px;font-size:15px;color:#293964;text-align: center;
           &:after{
-            display:inline-block;width: 24px;height: 19px;margin-left: 5px;vertical-align:middle;content:'';
+            display:inline-block;width: 24px;height: 19px;background: url('/assets/arr.png');margin-left: 5px;vertical-align:middle;content:'';
           }
           img{
             display:inline-block;margin-left:5px;vertical-align:middle;
