@@ -161,6 +161,8 @@ body {
 }
 #home p {
   display: block;
+  position: absolute;
+  left: 50%;
   min-height: 50px;
   font-size: 3.5em;
   color: #000;
@@ -185,6 +187,12 @@ body {
   line-height: 0.8;
   letter-spacing: -0.1em;
   opacity: 0.2;
+}
+#home .bg p.txt1 {
+  margin-left: -600px;
+}
+#home .bg p.txt2 {
+  margin-left: 70px;
 }
 
 #about {
@@ -225,9 +233,8 @@ body {
   top: -40px;
   z-index: -1;
   width: 100px;
-  height: 100px;
-  background: #fede22;
-  border-radius: 50%;
+  height: 85px;
+  background: url(images/5f218aeafb55b9b17f0b478b4b9766f8.png);
   content: "";
 }
 #about ul li p {
