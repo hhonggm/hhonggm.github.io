@@ -422,8 +422,9 @@ body {
 }
 #projects .box_wrap.fix .list1 {
   position: fixed;
-  left: 70px;
+  left: 50%;
   top: 0;
+  margin-left: -650px;
 }
 #projects .box_wrap.bottom .list1 {
   top: auto;
@@ -601,6 +602,7 @@ body.modal__open {
   }
   #projects .box_wrap.fix .list1 {
     left: 30px;
+    margin: 0;
   }
 }
 @media (max-width: 1024px) {
