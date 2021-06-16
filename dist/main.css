@@ -227,9 +227,10 @@ body {
   left: -40px;
   top: -40px;
   z-index: -1;
-  width: 100px;
-  height: 85px;
+  width: 56px;
+  height: 65px;
   background: url(images/5f218aeafb55b9b17f0b478b4b9766f8.png);
+  background-size: auto 100%;
   content: "";
 }
 #about ul li p {
@@ -240,6 +241,18 @@ body {
   height: 18px;
   margin-right: 5px;
   vertical-align: middle;
+}
+#about ul .item1 strong:before {
+  background-position: -20px 0;
+}
+#about ul .item2 strong:before {
+  background-position: -50px 0;
+}
+#about ul .item3 strong:before {
+  background-position: -100px 0;
+}
+#about ul .item4 strong:before {
+  background-position: -150px 0;
 }
 
 #projects .box_wrap {
