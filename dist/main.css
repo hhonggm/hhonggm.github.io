@@ -161,19 +161,22 @@ body {
 #home p {
   display: block;
   position: absolute;
+  top: 50%;
   left: 50%;
   min-height: 50px;
+  max-width: 450px;
   font-size: 7.5em;
   color: #000;
   font-family: "score";
   line-height: 1;
   font-weight: bold;
+  transform: translate(-50%);
 }
 #home p.txt1 {
   margin-left: -600px;
 }
 #home p.txt2 {
-  margin-left: 70px;
+  margin-left: 140px;
 }
 #home .bg {
   position: relative;
@@ -606,6 +609,13 @@ body.modal__open {
   }
 }
 @media (max-width: 1024px) {
+  #home p {
+    font-size: 4.5em;
+  }
+  #home p.txt1 {
+    margin-left: -370px;
+  }
+
   #projects .box_wrap {
     padding-left: 315px;
   }
@@ -655,6 +665,10 @@ body.modal__open {
   }
   #home p {
     font-size: 2.6em;
+  }
+  #home .bg .img {
+    width: 100%;
+    max-width: 300px;
   }
 
   #about ul li {
