@@ -170,7 +170,7 @@ body {
   font-family: "score";
   line-height: 1;
   font-weight: bold;
-  transform: translate(-50%);
+  transform: translateY(-50%);
 }
 #home p.txt1 {
   margin-left: -600px;
