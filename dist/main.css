@@ -243,9 +243,10 @@ body {
   vertical-align: middle;
 }
 #about ul .item1 strong:before {
-  background-position: -20px 0;
+  background-position: 0px 0;
 }
 #about ul .item2 strong:before {
+  width: 50px;
   background-position: -50px 0;
 }
 #about ul .item3 strong:before {
