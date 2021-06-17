@@ -19,6 +19,24 @@
 	},
 	{
 		"type" : "link",
+		"label" : "#대학",
+		"title" : "교통대학교 입학 개편용역",
+		"date" : "2021.03 - 진행중",
+		"imgUrl" : "images/main/ut_ipsi.jpg",
+		"linkUrl" : "http://ut.v3.acego.net:8080/ipsi.do",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#기타",
+		"title" : "버리고 홈페이지 구축",
+		"date" : "2021.04 - 2021.05",
+		"imgUrl" : "images/main/berrigo.jpg",
+		"linkUrl" : "http://beorigo.acego.net/",
+		"target" : ""
+	},
+	{
+		"type" : "link",
 		"label" : "#단일프로젝트",
 		"title" : "전국개발정보 지존 홈페이지 개편 용역",
 		"date" : "2021.03 - 2021.05",
