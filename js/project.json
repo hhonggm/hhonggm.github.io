@@ -1,9 +1,18 @@
 [
 	{
 		"type" : "modal",
+		"label" : "#대학",
+		"title" : "UST 대표 홈페이지 구축 사업",
+		"date" : "2021.03 - 2021.06",
+		"imgUrl" : "images/main/ust.jpg",
+		"linkUrl" : "",
+		"target" : "#demo-media__popup5"
+	},
+	{
+		"type" : "modal",
 		"label" : "#포털",
 		"title" : "유성구 홈페이지 전면개편사업",
-		"date" : "2021.03 - 진행중",
+		"date" : "2021.03 - 2021.06",
 		"imgUrl" : "images/main/ys_tour.jpg",
 		"linkUrl" : "",
 		"target" : "#demo-media__popup1"
@@ -11,24 +20,24 @@
 	{
 		"type" : "link",
 		"label" : "#대학",
-		"title" : "UST 대표 홈페이지 구축 사업",
-		"date" : "2021.04 - 진행중",
-		"imgUrl" : "images/main/ust.jpg",
-		"linkUrl" : "",
-		"target" : ""
-	},
-	{
-		"type" : "link",
-		"label" : "#대학",
 		"title" : "교통대학교 입학 개편용역",
-		"date" : "2021.03 - 진행중",
+		"date" : "2021.03 - 2021.06",
 		"imgUrl" : "images/main/ut_ipsi.jpg",
-		"linkUrl" : "http://ut.v3.acego.net:8080/ipsi.do",
+		"linkUrl" : "https://www.ut.ac.kr/ipsi.do",
 		"target" : ""
 	},
 	{
 		"type" : "link",
-		"label" : "#기타",
+		"label" : "#단일",
+		"title" : "금산군 여름철 물놀이안전 포털 홈페이지 구축사업",
+		"date" : "2021.05 - 2021.06",
+		"imgUrl" : "images/main/gs_safe.jpg",
+		"linkUrl" : "https://www.geumsan.go.kr/safegs/",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일",
 		"title" : "버리고 홈페이지 구축",
 		"date" : "2021.04 - 2021.05",
 		"imgUrl" : "images/main/berrigo.jpg",

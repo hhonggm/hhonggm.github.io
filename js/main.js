@@ -28,7 +28,6 @@ $(function() {
 
 
     visualTextshuffle();
-//     AOS.init();
     getProject();
 });
 
