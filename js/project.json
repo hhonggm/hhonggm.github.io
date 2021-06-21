@@ -18,13 +18,13 @@
 		"target" : "#demo-media__popup1"
 	},
 	{
-		"type" : "link",
+		"type" : "modal",
 		"label" : "#대학",
 		"title" : "교통대학교 입학 개편용역",
-		"date" : "2021.03 - 2021.06",
+		"date" : "2021.04 - 2021.06",
 		"imgUrl" : "images/main/ut_ipsi.jpg",
-		"linkUrl" : "https://www.ut.ac.kr/ipsi.do",
-		"target" : ""
+		"linkUrl" : "",
+		"target" : "demo-media__popup6"
 	},
 	{
 		"type" : "link",
