@@ -144,6 +144,14 @@ body {
   padding-top: 0;
 }
 
+/*@include keyframes (move-bg) {
+    0 {
+     transform: translateY(0);
+    }
+    100% { 
+     transform: translateY(-60%);
+    }
+}*/
 #home {
   display: block;
   position: relative;
@@ -182,12 +190,35 @@ body {
   position: relative;
 }
 #home .bg .img {
+  overflow: hidden;
   position: relative;
   z-index: 1;
   width: 332px;
   height: 461px;
   margin: 0 auto;
   background: #000;
+}
+#home .bg .img:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 1444px;
+  background: url(images/7869344b8e9c79aef76093acd05b0958.jpg);
+  background-size: 100%;
+  content: "";
+}
+#home .bg .img:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.4;
+  content: "";
 }
 
 #about {
