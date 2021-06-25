@@ -735,6 +735,27 @@ body.modal__open {
     width: 50px;
     height: 50px;
   }
+  
+  #about ul .item1 strong:before{
+      width:40px;
+    }
+  }
+  #about ul .item2 strong:before{
+      width:35px;
+      background-position:-43px 0;
+    }
+  }
+  #about ul .item3 strong:before{
+      width:34px;
+      background-position:-78px 0;
+    }
+  }
+  #about ul .item4 strong:before{
+      width:44px;
+      background-position:-116px 0;
+    }
+  }
+
 
   #projects .box_wrap {
     padding: 0;

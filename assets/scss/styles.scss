@@ -426,15 +426,42 @@ $breakpoint-mobile: 767px;
       .bg .img{width:100%;max-width:300px;}
     }
 
-    #about ul li{
-      width:100%;margin: 0 0 40px;min-height: auto;
-      &:nth-child(2n){
-        width:100%;margin: 0 0 40px;min-height: auto;
-      }
-      strong{
-        font-size:24px;
-        &:before{
-          left: -20px;top: -20px;width:50px;height:50px;
+    #about{
+      ul{
+        li{
+          width:100%;margin: 0 0 40px;min-height: auto;
+          &:nth-child(2n){
+            width:100%;margin: 0 0 40px;min-height: auto;
+          }
+          strong{
+            font-size:24px;
+            &:before{
+              left: -20px;top: -20px;width:50px;height:50px;
+            }
+          }
+        }
+        .item1 strong{
+          &:before{
+            width:40px;
+          }
+        }
+        .item2 strong{
+          &:before{
+            width:35px;
+            background-position:-43px 0;
+          }
+        }
+        .item3 strong{
+          &:before{
+            width:34px;
+            background-position:-78px 0;
+          }
+        }
+        .item4 strong{
+          &:before{
+            width:44px;
+            background-position:-116px 0;
+          }
         }
       }
     }
