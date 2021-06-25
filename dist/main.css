@@ -713,6 +713,7 @@ body.modal__open {
   }
   #home .bg .img {
     width: 100%;
+    height:340px;
     max-width: 300px;
   }
 
