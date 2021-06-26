@@ -525,6 +525,7 @@ body.modal__open {
   margin-bottom: 100px;
   padding: 0;
   text-align: center;
+  box-shadow: none;
 }
 .modal .modal__body .modal__content .btn a {
   display: inline-block;
