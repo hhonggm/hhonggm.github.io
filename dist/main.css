@@ -713,7 +713,7 @@ body.modal__open {
   }
   #home p.txt1{
     left:-20px;
-    max-width: 100px
+    max-width: 100px;
     margin-left:0;
   }
   #home p.txt2{
