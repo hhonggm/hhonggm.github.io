@@ -420,7 +420,18 @@ $breakpoint-mobile: 767px;
 
     #home{
       em{font-size:1em}
-      p{font-size: 2.6em;}
+      p{font-size: 2.4em;}
+      p.txt1{
+        left:-20px;
+        max-width: 100px
+        margin-left:0;
+      }
+      p.txt2{
+        left:auto;
+        right:-20px;
+        max-width: 130px
+        margin-left:0;
+      }
       .bg .img{width:100%;height:340px;max-width:300px;}
     }
 

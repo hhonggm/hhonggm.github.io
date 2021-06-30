@@ -709,7 +709,18 @@ body.modal__open {
     font-size: 1em;
   }
   #home p {
-    font-size: 2.6em;
+    font-size: 2.4em;
+  }
+  #home p.txt1{
+    left:-20px;
+    max-width: 100px
+    margin-left:0;
+  }
+  #home p.txt2{
+    left:auto;
+    right:-20px;
+    max-width: 130px
+    margin-left:0;
   }
   #home .bg .img {
     width: 100%;
