@@ -719,7 +719,7 @@ body.modal__open {
   #home p.txt2{
     left:auto;
     right:-20px;
-    max-width: 130px
+    max-width: 130px;
     margin-left:0;
   }
   #home .bg .img {
