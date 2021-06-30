@@ -704,7 +704,9 @@ body.modal__open {
   #gnb_layout #gnb ul li a {
     padding: 0 10px;
   }
-
+  #home{
+    padding-top: 40%;
+  }
   #home em {
     font-size: 1em;
   }
