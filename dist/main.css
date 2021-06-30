@@ -155,6 +155,7 @@ body {
 #home {
   display: block;
   position: relative;
+  height:100vh;
   padding: 210px 0 50px;
   box-sizing: border-box;
 }
@@ -196,7 +197,6 @@ body {
   width: 332px;
   height: 461px;
   margin: 0 auto;
-  background: #000;
 }
 #home .bg .img:before {
   position: absolute;
@@ -207,7 +207,6 @@ body {
   height: 1444px;
   background: url(images/7869344b8e9c79aef76093acd05b0958.jpg);
   background-size: 100%;
-  content: "";
 }
 #home .bg .img:after {
   position: absolute;
