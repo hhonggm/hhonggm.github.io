@@ -24,7 +24,7 @@
 		"date" : "2021.04 - 2021.06",
 		"imgUrl" : "images/main/ut_ipsi.jpg",
 		"linkUrl" : "",
-		"target" : "demo-media__popup6"
+		"target" : "#demo-media__popup6"
 	},
 	{
 		"type" : "link",
