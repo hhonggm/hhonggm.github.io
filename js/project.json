@@ -126,6 +126,15 @@
 		"target" : ""
 	},
 	{
+		"type" : "link",
+		"label" : "#기타",
+		"title" : "PHP CMS 개편 개발팀 안내자료 제작 및 배포",
+		"date" : "2020.04",
+		"imgUrl" : "images/main/php.jpg",
+		"linkUrl" : "images/main/gonet_tmpl.pdf",
+		"target" : ""
+	},
+	{
 		"type" : "modal",
 		"label" : "#포털",
 		"title" : "ICT 기반 금산군 홈페이지 통합 및 고도화 용역",
@@ -164,7 +173,7 @@
 	{
 		"type" : "link",
 		"label" : "#기타",
-		"title" : "2019 접근성 문서",
+		"title" : "2019 접근성 교육자료제작 및 발표",
 		"date" : "2019.09",
 		"imgUrl" : "images/main/2019docu.jpg",
 		"linkUrl" : "images/main/2019docu.pdf",
