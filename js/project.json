@@ -56,6 +56,24 @@
 	{
 		"type" : "link",
 		"label" : "#단일프로젝트",
+		"title" : "GIST 1차 메인개편 용역",
+		"date" : "2020.4 - 2021.05",
+		"imgUrl" : "images/main/gist2.jpg",
+		"linkUrl" : "https://www.gist.ac.kr/kr/event_2st/index.html",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
+		"title" : "GIST 1차 메인개편 용역",
+		"date" : "2020.3 - 2021.04",
+		"imgUrl" : "images/main/gist1.jpg",
+		"linkUrl" : "https://www.gist.ac.kr/kr/event/event.html",
+		"target" : ""
+	},
+	{
+		"type" : "link",
+		"label" : "#단일프로젝트",
 		"title" : "교육플랫폼 나래이음 홈페이지 구축 용역",
 		"date" : "2020.12 - 2021.02",
 		"imgUrl" : "images/main/ysnr.jpg",
