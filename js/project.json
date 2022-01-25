@@ -58,7 +58,7 @@
 		"label" : "#단일프로젝트",
 		"title" : "GIST 1차 메인개편 용역",
 		"date" : "2020.4 - 2021.05",
-		"imgUrl" : "images/main/gist2.jpg",
+		"imgUrl" : "images/main/gist2.png",
 		"linkUrl" : "https://www.gist.ac.kr/kr/event_2st/index.html",
 		"target" : ""
 	},
@@ -67,7 +67,7 @@
 		"label" : "#단일프로젝트",
 		"title" : "GIST 1차 메인개편 용역",
 		"date" : "2020.3 - 2021.04",
-		"imgUrl" : "images/main/gist1.jpg",
+		"imgUrl" : "images/main/gist1.png",
 		"linkUrl" : "https://www.gist.ac.kr/kr/event/event.html",
 		"target" : ""
 	},
