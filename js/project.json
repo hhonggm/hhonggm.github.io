@@ -1,5 +1,13 @@
 [
 	{
+		"type" : "link",
+		"label" : "#단일",
+		"title" : "카카오픽코마 글로벌 인사시스템(HR)",
+		"date" : "2023.04 - 2023.07",
+		"imgUrl" : "images/main/berrigo.jpg",
+		"linkUrl" : "http://kakaopiccoma.ustra.design/html/desktop/typography.html",
+		"target" : ""
+	},{
 		"type" : "modal",
 		"label" : "#대학",
 		"title" : "UST 대표 홈페이지 구축 사업",
