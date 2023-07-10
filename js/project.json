@@ -40,13 +40,13 @@
 		"linkUrl" : "https://trofit.world/",
 		"target" : ""
 	},{
-		"type" : "link",
+		"type" : "modal",
 		"label" : "#단일",
 		"title" : "스마일게이트 차세대 재무포탈 구축",
 		"date" : "2022.09 - 2022.11",
 		"imgUrl" : "images/main/smilegate.png",
 		"linkUrl" : "http://smilegate-eaccounting.ustra.design/pages/main/main.html",
-		"target" : ""
+		"target" : "#demo-media__popup8"
 	},{
 		"type" : "link",
 		"label" : "#단일",
