@@ -1,11 +1,59 @@
 [
 	{
-		"type" : "link",
-		"label" : "#단일",
+		"type" : "modal",
+		"label" : "#HR",
 		"title" : "카카오픽코마 글로벌 인사시스템(HR)",
 		"date" : "2023.04 - 2023.07",
-		"imgUrl" : "images/main/berrigo.jpg",
-		"linkUrl" : "http://kakaopiccoma.ustra.design/html/desktop/typography.html",
+		"imgUrl" : "images/main/kakaopiccoma.png",
+		"linkUrl" : "",
+		"target" : "#demo-media__popup7"
+	},{
+		"type" : "link",
+		"label" : "#UIFramework",
+		"title" : "디자인시스템(표준 UI 프레임웍) React",
+		"date" : "2023.04 - 진행중",
+		"imgUrl" : "images/main/designsystem.png",
+		"linkUrl" : "https://design-system-react.gsitm-ui.team/",
+		"target" : ""
+	},{
+		"type" : "link",
+		"label" : "#UIFramework",
+		"title" : "디자인시스템(표준 UI 프레임웍) HTML",
+		"date" : "2022.12 - 2023.02",
+		"imgUrl" : "images/main/designsystem.png",
+		"linkUrl" : "https://design-system.gsitm-ui.team/",
+		"target" : ""
+	},{
+		"type" : "link",
+		"label" : "#단일",
+		"title" : "현대오일뱅크 설비통합 플랫폼 구축",
+		"date" : "2023.02 - 2023.03",
+		"imgUrl" : "images/main/hyundaioilbank.png",
+		"linkUrl" : "http://hyundai-oilbank-mb.ustra.design/pages/contents/main.html",
+		"target" : ""
+	},{
+		"type" : "link",
+		"label" : "#단일",
+		"title" : "트로핏 홍보사이트 (국문, 영문)",
+		"date" : "2022.12",
+		"imgUrl" : "images/main/trofit.png",
+		"linkUrl" : "https://trofit.world/",
+		"target" : ""
+	},{
+		"type" : "link",
+		"label" : "#단일",
+		"title" : "스마일게이트 차세대 재무포탈 구축",
+		"date" : "2022.09 - 2022.11",
+		"imgUrl" : "images/main/smilegate.png",
+		"linkUrl" : "http://smilegate-eaccounting.ustra.design/pages/main/main.html",
+		"target" : ""
+	},{
+		"type" : "link",
+		"label" : "#단일",
+		"title" : "GS ITM 홈페이지 부분개편",
+		"date" : "2022.07 - 2023.09",
+		"imgUrl" : "images/main/gsitm.png",
+		"linkUrl" : "https://www.gsitm.com/",
 		"target" : ""
 	},{
 		"type" : "modal",
